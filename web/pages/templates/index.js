@@ -15,12 +15,12 @@ Page({
       url: '../logs/logs'
     })
   },
-  onShow() {
+  show() {
     console.log("getTabBar", this.getTabBar)
     if (typeof this.getTabBar === 'function' && this.getTabBar()) {
       console.log(1)
       this.getTabBar().setData({
-        selected: 2
+        selected: 1
       })
     }
   },

@@ -20,7 +20,7 @@ Page({
     if (typeof this.getTabBar === 'function' && this.getTabBar()) {
       console.log(1)
       this.getTabBar().setData({
-        selected: 2
+        selected: 3
       })
     }
   },
